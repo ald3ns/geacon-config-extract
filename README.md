@@ -5,7 +5,7 @@ Geacon is a Cobalt Strike implementation written in Go. There are two versions t
 - https://github.com/darkr4y/geacon
 - https://github.com/Z3ratu1/geacon_plus
 
-This script will use the symbols present in builds that haven't been obfuscated using a tool like [garble](https://github.com/burrowers/garble]). Obviously, that means this script is brittle, but it is entirely possible the config is found in the same place each time.
+This script will use the symbols present in builds that haven't been obfuscated using a tool like [garble](https://github.com/burrowers/garble]) to dump the config (see [geacon source](https://github.com/Z3ratu1/geacon_plus/blob/main/config/config.go)). Obviously, that means this script is brittle, but it is entirely possible the config is found in the same place each time.
 
 The sample this script was tested with was: https://www.virustotal.com/gui/file/cc210ecd2d8b8060eb272fd37b65e1eb00d4cfb65795a82299d89a01df56ea7d.
 
